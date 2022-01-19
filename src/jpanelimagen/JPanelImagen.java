@@ -36,6 +36,7 @@ public class JPanelImagen extends JPanel implements Serializable {
 
     public void setImagenFondo(ImagenFondo imagenFondo) {
         this.imagenFondo = imagenFondo;
+        repaint();
     }
     
     // Para pintar el componente en el panel está el método paintComponent
